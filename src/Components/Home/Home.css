@@ -1,0 +1,66 @@
+.home-grid {
+    padding-top: 240px;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 90vh;
+    height: 90vh;
+}
+
+.home-left {
+    padding-left: 165px;
+    padding-right: 80px;
+}
+
+.home-right {
+    padding-left: 40px;
+}
+
+.home-title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 92px;
+}
+
+.home-text {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.home-img {
+    width: 40vw;
+}
+
+.home-button-blue {
+    width: 115px;
+    height: 48px;
+    background: var(--newBlue);
+    border: .5px solid rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    box-shadow: 0 30px 40px rgba(212, 217, 232, .2);
+    border-radius: 6px;
+    margin-left: 8vw;
+    margin-top: 1.5vw;
+    cursor: pointer;
+}
+/*
+.home-button {
+    width: 15vw;
+    height: 3.5vw;
+    background: linear-gradient(263.97deg, #3098ff 30.94%, #277bcf 92.72%);
+    border: .5px solid rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    box-shadow: 0 30px 40px rgba(212, 217, 232, .2);
+    border-radius: 6px;
+    margin-left: 8vw;
+    margin-top: 1.5vw;
+    cursor: pointer;
+}*/
+
+.home-button-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8vw;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,47 @@
+.company-grid {
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-rows: 90vh;
+    height: 90vh;
+}
+
+.small-grid {
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+.company-left {
+    padding-left: 165px;
+    padding-right: 80px;
+}
+
+.company-right {
+    padding-left: 40px;
+}
+
+.small-left {
+    
+}
+
+.small-right {
+    padding-left: 40px;
+}
+
+.company-title {
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 92px;
+    color: white;
+}
+
+.company-text {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.company-img {
+    width: 25vw;
+}
