@@ -23,31 +23,35 @@ export const Company = () => {
                             />
                         </div>
                         <div className="small-right">
-                            <h4>Personell Headhunting</h4>
+                            <h4 className="company-card-sub">Personell Headhunting</h4>
                             <p className="company-text">Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </Card>
 
                 <Card>
-                    <div className="small-grid">
-                        <div className="company-left">
-                            <Icon />
+                <div className="small-grid">
+                        <div className="small-left">
+                            <Icon
+                                src="Image.svg"
+                            />
                         </div>
-                        <div className="company-right">
-                            <h4>Personell Headhunting</h4>
+                        <div className="small-right">
+                            <h4 className="company-card-sub">Project management</h4>
                             <p className="company-text">Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>
                 </Card>
 
                 <Card>
-                    <div className="small-grid">
-                        <div className="company-left">
-                            <Icon />
+                <div className="small-grid">
+                        <div className="small-left">
+                            <Icon
+                                src="Image.svg"
+                            />
                         </div>
-                        <div className="company-right">
-                            <h4>Personell Headhunting</h4>
+                        <div className="small-right">
+                            <h4 className="company-card-sub">Step 3</h4>
                             <p className="company-text">Lorem ipsum dolor sit amet.</p>
                         </div>
                     </div>

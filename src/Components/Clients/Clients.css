@@ -1,0 +1,25 @@
+.clients-grid {
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: 15% 15% auto;
+    height: 100vh;
+    justify-content: center;
+}
+
+.clients-title {
+    font-size: 62px;
+    font-weight: bold;
+    line-height: 92px;
+    color: black;
+    text-align: center;
+}
+
+.clients-text {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.clients-img {
+    width: 70vw;
+}
