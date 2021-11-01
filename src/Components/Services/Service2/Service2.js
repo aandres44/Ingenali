@@ -3,7 +3,7 @@ import "../Service.css"
 
 export const Service2 = () => {
     return (
-        <div className="service-grid">
+        <div id="service2" className="service-grid">
             <div className="service-left">
                 <img
                     src="Service2.svg"

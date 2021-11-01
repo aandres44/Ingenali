@@ -1,0 +1,81 @@
+.footer-grid {
+    display: grid;
+    grid-template-rows: repeat(4, 60px);
+    height: 280px;
+    /*align-content: center;*/
+    /* Dark Blue Gradient */
+    background: linear-gradient(225deg, #16192C 0%, rgba(33, 33, 66, 0.95) 100%);
+    border-radius: 12px 12px 0px 0px;
+}
+
+.footer-logo-social {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 20px;
+}
+
+.footer-second {
+    display: flex;
+    justify-content: start;
+    margin-left: 13vw;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: start;
+    margin-left: 13vw;
+}
+
+.footer-credits {
+    display: flex;
+    justify-content: start;
+    margin-left: 13vw;
+}
+
+.footer-logo {
+    width: 35px;
+    width: clamp(130px, 17vw, 45px);
+    padding-top: 11px;
+    margin-left: 15vw;
+}
+
+.footer-a {
+    color: white;
+    padding-left: 2vw;
+}
+
+.footer-text {
+    color: white;
+    padding-left: 2vw;
+}
+
+.float-right {
+    float: right;
+    margin-left: 22vw;
+}
+
+.footer-circle {
+    background: #f3f9ff;
+    border: 0.1px solid rgba(196, 196, 196, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+    border-radius: 57px;
+    width: 2.3vw;
+    height: 2.3vw;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    width: 60%;
+}
+
+.footer-icon-facebook {
+    width: 40%;
+}
+
+.footer-facebook {
+    margin-left: 45vw;
+}

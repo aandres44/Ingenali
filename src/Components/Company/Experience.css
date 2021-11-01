@@ -1,0 +1,54 @@
+.experience-card {
+    display: grid;
+    /*grid-template-columns: repeat(4, 25%);*/
+    grid-template-rows: 20% auto;
+    justify-content: center;
+    background-color: white;
+    width: 80vw;
+    height: 240px;
+    padding: 32px 0px;
+    box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1), 0px 20px 24px rgba(20, 37, 63, 0.06);
+    border-radius: 15px;
+}
+
+.exp-up {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 80vw;
+    align-content: center;
+    justify-items: center;
+}
+
+.exp-down {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 80vw;
+    justify-items: center;
+    
+}
+
+.exp-mini-card {
+    display: grid;
+    grid-template-rows: 50% auto;
+    justify-items: center;
+}
+
+.exp-number-big {
+    font-size: 58px;
+    line-height: 64px;
+    font-weight: 990;
+}
+
+.exp-text {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+.exp-dark-red {
+    color: #812F49;
+}
+
+.exp-light-red {
+    color: #F16063;
+}

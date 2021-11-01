@@ -4,139 +4,120 @@ import '../../index.css';
 import "./Navbar.css"
 
 const Navbar = () => {
-    const [sidebar, setSidebar] = useState(false);
-
-    const data = [
-        {
-            title: "Company",
-            path: "/",
-
-            className: "nav-text",
-        },
-        {
-            title: "Clients",
-            path: "/Servicios",
-
-            className: "nav-text",
-        },
-
-        {
-            title: "Services",
-            path: "/Portafolio",
-
-            className: "nav-text",
-        },
-        {
-            title: "Our Team",
-            path: "/Quienes-somos",
-
-            className: "nav-text",
-        },
-        {
-            title: "Contact Us",
-            path: "/Cotizar",
-
-            className: "nav-text",
-        },
-    ];
-
-    const showSidebar = () => {
-        setSidebar(!sidebar);
-    };
+    const [toggle, setToggle] = useState(false);
 
     return (
-        <>
-
-            <nav className="nav">
-                <div className="bar">
-                    <input type="checkbox" id="check" />
-                    <label for="check" className="checkbtn">
-                        {/*<FaBars className="menu-icon" size={28} onClick={showSidebar} />*/}
-                    </label>
-                    <Link to="/">
-                        <img
-                            src="Dark.svg"
-                            className="nav-logo"
-                            alt="logo"
-                        />
-                    </Link>
-
-                    {/*<img
-                    src="https://firebasestorage.googleapis.com/v0/b/punto-banana.appspot.com/o/Puntobanana%2FBANANA%20Texto.svg?alt=media&token=6b8c2ed2-9128-4f91-87d1-f30840d26136"
-                    className="nav-logo-letras"
-                />*/}
-
-
-                    <ul className={sidebar ? "nav-ul nav-ul-hide" : "nav-ul"} >
-                        <li className="nav-li">
-                            <Link className="nav-a" to="/" onClick={showSidebar} >
+        <div>
+            <div className="navbar">
+                <div className={toggle ? "navbar-web active" : "navbar-web"}>
+                    <ul className="menu-ul">
+                        <a href="#company">
+                            <li
+                                onClick={() => {
+                                    setToggle(!toggle);
+                                }}
+                                className="menu-li"
+                            >
                                 Company
-                            </Link>
-
-                        </li>
-                        <li className="nav-li">
-                            <Link className="nav-a" to="/Servicios" onClick={showSidebar} >
+                            </li>
+                        </a>
+                        <a href="#clients">
+                            <li
+                                onClick={() => {
+                                    setToggle(!toggle);
+                                }}
+                                className="menu-li"
+                            >
                                 Clients
-                            </Link>
-                        </li>
-                        <li className="nav-li">
-                            <Link className="nav-a" to="/Portafolio" onClick={showSidebar} >
+                            </li>
+                        </a>
+                        <a href="#service">
+                            <li
+                                onClick={() => {
+                                    setToggle(!toggle);
+                                }}
+                                className="menu-li"
+                            >
                                 Services
-                            </Link>
-                        </li>
-                        <li className="nav-li">
-                            <Link className="nav-a" to="/Quienes-somos" onClick={showSidebar} >
+                            </li>
+                        </a>
+                        <a href="#our-team">
+                            <li
+                                onClick={() => {
+                                    setToggle(!toggle);
+                                }}
+                                className="menu-li"
+                            >
                                 Our Team
-                            </Link>
-                        </li>
-                        <li className="nav-li">
-                            <Link className="nav-a" to="/Cotizar" onClick={showSidebar} >
-                                Contact Us
-                            </Link>
-                        </li>
+                            </li>
+                        </a>
                     </ul>
-
-                    <ul className="nav-social-ul">
-                        <li className="nav-li">
-                            <Link to="/">
-                                <img
-                                    src="facebook2.svg"
-                                    className="face-logo"
-                                    alt="face-logo"
-                                />
-                            </Link>
-                        </li>
-
-                        <li className="nav-li">
-                            <Link to="/">
-                                <img
-                                    src="Whatsapp.svg"
-                                    className="whats-logo"
-                                    alt="whats-logo"
-                                />
-                            </Link>
-                        </li>
-
-                        <li className="nav-li">
-                            <Link to="/">
-                                <img
-                                    src="Linkedin.svg"
-                                    className="in-logo"
-                                    alt="in-logo"
-                                />
-                            </Link>
-                        </li>
-                    </ul>
-
-                 
                 </div>
-                <hr className="nav-hr" />
-            </nav>
-
-
-        </>
-
+                <img
+                    src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FMenu.svg?alt=media&token=1e7aae0c-5b86-48cf-9168-6fba66c96390"
+                    alt="Menu"
+                    className="navbar-menu"
+                    onClick={() => {
+                        setToggle(!toggle);
+                    }}
+                />
+                <a href="#home">
+                    <img
+                        src="Dark.svg"
+                        alt="logo"
+                        className="navbar-logo"
+                    />
+                </a>
+                <a className="a-link" href="#company">
+                    <p className="navbar-options">Company</p>
+                </a>
+                <a className="a-link" href="#clients">
+                    <p className="navbar-options">Clients</p>
+                </a>
+                <a className="a-link" href="#service">
+                    <p className="navbar-options">Servicios</p>
+                </a>
+                <a className="a-link" href="#our-team">
+                    <p className="navbar-options">Our Team</p>
+                </a>
+                <a
+                    href="https://www.facebook.com/puntobanana/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <div className="navbar-circle navbar-facebook">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FFace.svg?alt=media&token=4496e785-ee1e-4db3-b85d-0430def9fea3"
+                            alt="Facebook"
+                            className="navbar-icon navbar-icon-facebook"
+                        />
+                    </div>
+                </a>
+                <a
+                    href="https://wa.me/+528120167803/?text=!Quiero crear mi sitio web! 🍌"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <div className="navbar-circle">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2Fwhats.svg?alt=media&token=85ec7866-a4ec-4d3b-872c-339d06ef6d91"
+                            alt="Whatsapp"
+                            className="navbar-icon"
+                        />
+                    </div>
+                </a>
+                <a href="http://m.me/puntobanana" target="_blank" rel="noreferrer">
+                    <div className="navbar-circle">
+                        <img
+                            src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FMessenger.svg?alt=media&token=024d428c-d13a-452c-9b61-df3de679e0fa"
+                            alt="Messenger"
+                            className="navbar-icon"
+                        />
+                    </div>
+                </a>
+            </div>
+        </div>
     );
-}
+};
 
 export default Navbar

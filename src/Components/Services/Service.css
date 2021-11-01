@@ -14,6 +14,22 @@
     text-align: center;
 }
 
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-center {
+    display: grid;
+    grid-template-rows: 10% auto;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
 .service-text {
     font-size: 18px;
     line-height: 32px;
@@ -32,6 +48,5 @@
 .service-right {
     align-items: center;
     align-content: center;
-    
     justify-content: center;
 }
