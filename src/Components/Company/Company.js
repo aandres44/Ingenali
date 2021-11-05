@@ -17,7 +17,7 @@ export const Company = () => {
                             <div className="company-small-grid">
                                 <div className="company-small-left">
                                     <img
-                                        src="Headhunting.svg"
+                                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Headhunting.svg?alt=media&token=a6bfca6e-9962-4e9a-9232-04a5d7e10904"
                                         className="small-icon"
                                     />
                                 </div>
@@ -31,7 +31,7 @@ export const Company = () => {
                             <div className="company-small-grid">
                                 <div className="company-small-left">
                                     <img
-                                        src="PM.svg"
+                                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/PM.svg?alt=media&token=28493f5f-fed4-4b96-bb59-d44a1c282f83"
                                         className="small-icon"
                                     />
                                 </div>
@@ -45,7 +45,7 @@ export const Company = () => {
                             <div className="company-small-grid">
                                 <div className="company-small-left">
                                     <img
-                                        src="step3.svg"
+                                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Industrial.svg?alt=media&token=7995d3b2-b458-4020-81f1-c00ea91f0406"
                                         className="small-icon"
                                     />
                                 </div>
@@ -59,7 +59,7 @@ export const Company = () => {
                             <div className="company-small-grid">
                                 <div className="company-small-left">
                                     <img
-                                        src="step3.svg"
+                                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Industrial.svg?alt=media&token=7995d3b2-b458-4020-81f1-c00ea91f0406"
                                         className="small-icon"
                                     />
                                 </div>
@@ -73,7 +73,7 @@ export const Company = () => {
                             <div className="company-small-grid">
                                 <div className="company-small-left">
                                     <img
-                                        src="step3.svg"
+                                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Industrial.svg?alt=media&token=7995d3b2-b458-4020-81f1-c00ea91f0406"
                                         className="small-icon"
                                     />
                                 </div>
@@ -86,7 +86,7 @@ export const Company = () => {
                     </div>
                     <div className="company-right">
                         <img
-                            src="Image.svg"
+                            src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Phone.svg?alt=media&token=b2a2f42c-8a42-4620-ba9e-e15ce0545651"
                             className="company-img"
                             alt="company-summary"
                         />

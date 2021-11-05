@@ -51,10 +51,10 @@
     box-sizing: border-box;
     box-shadow: 0 30px 40px rgba(212, 217, 232, .2);
     border-radius: 6px;
-    
     margin-top: 1.5vw;
     cursor: pointer;
 }
+
 /*
 .home-button {
     width: 15vw;
@@ -84,11 +84,42 @@
 }
 
 @media screen and (max-width: 952px) {
-    
+    .home-separator {
+        display: grid;
+        grid-template-rows: 80% auto;
+        height: auto;
+        align-items: center;
+        justify-items: center;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
     .home-grid {
         grid-template-columns: auto;
         grid-template-rows: 50% auto;
-        padding-top: 70px;
+        justify-items: center;
+        justify-content: center;
+        margin-bottom: 5vh;
+        width: 90%;
+    }
+    .home-right {
+        grid-row: 1;
+    }
+    .home-left {
+        display: grid;
+        padding-left: 0%;
+        padding-right: 0%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .home-title {
+        font-size: 3rem;
+    }
+    .home-text {
+        font-size: 1.2rem;
+    }
+    .home-button-blue {
+        margin-top: 0%;
     }
     /*
     .company-grid {

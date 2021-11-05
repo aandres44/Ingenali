@@ -73,7 +73,7 @@ const Navbar = () => {
                 />
                 <a href="#home">
                     <img
-                        src="LogoDark.svg"
+                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/LogoDark.svg?alt=media&token=7ba65df9-c60e-4fd9-9e17-64ac0334ef3d"
                         alt="logo"
                         className="navbar-logo"
                     />

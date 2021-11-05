@@ -7,9 +7,9 @@ export const Service1 = () => {
             <div id="service" className="service-grid">
                 <div className="service-left">
                     <img
-                        src="Ingenieria.svg"
+                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Ingenieria.svg?alt=media&token=ba4f028b-46e0-422e-8143-f267f41ece3a"
                         className="service-img"
-                        alt="service"
+                        alt="Ingenieria"
                     />
 
                 </div>

@@ -14,7 +14,7 @@ export const Home = () => {
                 </div>
                 <div className="home-right">
                     <img
-                        src="Home-logo.svg"
+                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Home-logo.svg?alt=media&token=5121d760-e9d9-48f6-a54a-f35053389a5c"
                         className="home-img"
                         alt="REPSE"
                     />
@@ -22,7 +22,7 @@ export const Home = () => {
             </div>
 
             <img
-                src="secodisa.svg"
+                src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/secodisa.svg?alt=media&token=aa2ecb63-3cbe-488d-844e-4331e032a4c0"
                 className="home-img"
                 alt="REPSE"
             />

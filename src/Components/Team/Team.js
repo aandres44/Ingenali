@@ -10,7 +10,7 @@ export const Team = () => {
                 
                 <div className="service-left">
                     <img
-                        src="Team1.svg"
+                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/Team1.svg?alt=media&token=0306c7e4-8f0a-4d2c-b68e-083c516c5ec4"
                         className="service-img"
                         alt="service"
                     />

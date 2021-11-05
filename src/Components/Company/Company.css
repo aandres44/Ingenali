@@ -10,7 +10,6 @@
     display: grid;
     grid-template-rows: 15% auto;
     height: 110vh;
-    width: 100vw;
 }
 
 .company-small-grid {
