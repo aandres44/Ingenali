@@ -71,6 +71,7 @@
         grid-template-columns: 100%;
         min-width: 200px;
         height: fit-content;
+        width: 80vw;
     }
 
     .exp-col {

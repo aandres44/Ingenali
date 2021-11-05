@@ -1,6 +1,6 @@
 .team-grid-center {
     display: grid;
-    grid-template-rows: 5% 15% auto;
+    grid-template-rows: 30% auto;
     grid-template-columns: auto;
 }
 
@@ -17,6 +17,7 @@
     font-weight: bold;
     line-height: 55px;
     color: black;
+    text-align: center;
 }
 
 .team-text {
@@ -30,7 +31,7 @@
 
     .team-alignment {
         display: grid;
-        grid-template-rows: 10% auto;
+        grid-template-rows: 25% auto;
         justify-content: center;
         justify-items: center;
         margin-bottom: 5rem;
@@ -45,12 +46,15 @@
         padding: 10px;
         box-shadow: 1.5px 3px 2px 0 rgba(0, 0, 0, 0.6);
         width: 300px;
+        height: fit-content;
     }
 
     .team-ul {
         display: grid;
         justify-items: center;
     }
+
+    .tea
 
     .team-member {
         font-size: 2rem;
@@ -62,6 +66,11 @@
         width: 100%;
         font-size: 1.0rem;
         line-height: 1.5rem;
+    }
+
+    .team-img {
+        padding-left: 0%;
+        width: 90vw;
     }
 
 }

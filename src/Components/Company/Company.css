@@ -104,9 +104,10 @@
     .company-grid {
         height: fit-content;
         justify-content: center;
-        background-image: url("https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/company_long.svg?alt=media&token=d690eafe-7cd2-439b-a5b6-aa5ccf6d28e5");
-        background-size: auto 2900px;
+        background-image: none;
+        background-color: #26368B;
         border-radius: 10px;
+        grid-template-rows: auto;
     }
     
     .company-img {

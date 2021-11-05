@@ -113,7 +113,7 @@ a:hover {
     margin-left: 8vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 952px) {
     .navbar {
         padding-bottom: 2vw;
     }
@@ -129,9 +129,9 @@ a:hover {
         margin-top: 2.2vw;
     }
     .navbar-options {
-        visibility: hidden;
+        display: none;
     }
     .navbar-circle {
-        visibility: hidden;
+        display: none;
     }
 }

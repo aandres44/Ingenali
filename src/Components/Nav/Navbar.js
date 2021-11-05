@@ -63,8 +63,8 @@ const Navbar = () => {
                         </a>
                     </ul>
                 </div>
-                <img
-                    src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FMenu.svg?alt=media&token=1e7aae0c-5b86-48cf-9168-6fba66c96390"
+               <img
+                   src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FMenu.svg?alt=media&token=1e7aae0c-5b86-48cf-9168-6fba66c96390"
                     alt="Menu"
                     className="navbar-menu"
                     onClick={() => {
@@ -72,8 +72,8 @@ const Navbar = () => {
                     }}
                 />
                 <a href="#home">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/LogoDark.svg?alt=media&token=7ba65df9-c60e-4fd9-9e17-64ac0334ef3d"
+                   <object
+                       type="image/svg+xml" data="https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/LogoDark.svg?alt=media&token=7ba65df9-c60e-4fd9-9e17-64ac0334ef3d"
                         alt="logo"
                         className="navbar-logo"
                     />
@@ -100,8 +100,8 @@ const Navbar = () => {
                     rel="noreferrer"
                 >
                     <div className="navbar-circle navbar-facebook">
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FFace.svg?alt=media&token=4496e785-ee1e-4db3-b85d-0430def9fea3"
+                       <object
+                           type="image/svg+xml" data="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FFace.svg?alt=media&token=4496e785-ee1e-4db3-b85d-0430def9fea3"
                             alt="Facebook"
                             className="navbar-icon navbar-icon-facebook"
                         />
@@ -113,8 +113,8 @@ const Navbar = () => {
                     rel="noreferrer"
                 >
                     <div className="navbar-circle">
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2Fwhats.svg?alt=media&token=85ec7866-a4ec-4d3b-872c-339d06ef6d91"
+                       <object
+                           type="image/svg+xml" data="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2Fwhats.svg?alt=media&token=85ec7866-a4ec-4d3b-872c-339d06ef6d91"
                             alt="Whatsapp"
                             className="navbar-icon"
                         />
@@ -122,8 +122,8 @@ const Navbar = () => {
                 </a>
                 <a href="http://m.me/puntobanana" target="_blank" rel="noreferrer">
                     <div className="navbar-circle">
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FMessenger.svg?alt=media&token=024d428c-d13a-452c-9b61-df3de679e0fa"
+                       <object
+                           type="image/svg+xml" data="https://firebasestorage.googleapis.com/v0/b/sass-b1d5f.appspot.com/o/Recursos%2FMessenger.svg?alt=media&token=024d428c-d13a-452c-9b61-df3de679e0fa"
                             alt="Messenger"
                             className="navbar-icon"
                         />
