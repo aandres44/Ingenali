@@ -9,12 +9,59 @@
     font-weight: bold;
     line-height: 55px;
     color: black;
+    text-align: center;
+}
+
+.team-member {
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 55px;
+    color: black;
 }
 
 .team-text {
     font-size: 20px;
     line-height: 52px;
-    
     width: 70%;
     list-style: disc;
+}
+
+@media screen and (max-width: 952px) {
+
+    .team-alignment {
+        display: grid;
+        grid-template-rows: 10% auto;
+        justify-content: center;
+        justify-items: center;
+        margin-bottom: 5rem;
+    }
+
+    .team-title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        background-color: #26368B;
+        border-radius: 8px;
+        color: white;
+        padding: 10px;
+        box-shadow: 1.5px 3px 2px 0 rgba(0, 0, 0, 0.6);
+        width: 300px;
+    }
+
+    .team-ul {
+        display: grid;
+        justify-items: center;
+    }
+
+    .team-member {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+    }
+
+    .team-text {
+        width: 100%;
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+    }
+
 }
