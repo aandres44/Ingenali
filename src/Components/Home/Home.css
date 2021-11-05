@@ -1,14 +1,21 @@
+.home-separator {
+    display: grid;
+    grid-template-rows: 80% auto;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+}
+
 .home-grid {
-    padding-top: 240px;
     display: grid;
     grid-template-columns: 50% auto;
-    grid-template-rows: 90vh;
-    height: 90vh;
+    align-items: center;
+    justify-items: center;
 }
 
 .home-left {
-    padding-left: 250px;
-    padding-right: 80px;
+    padding-left: 16vw;
+    padding-right: 5vw;
 }
 
 .home-right {
@@ -30,7 +37,7 @@
 
 .home-img {
     width: 40vw;
-    width: clamp(350px, 40vw, 800px);
+    width: clamp(350px, 30vw, 800px);
 }
 
 .home-button-blue {

@@ -1,4 +1,5 @@
 .company-grid {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/BG.svg?alt=media&token=213e655e-5f0d-42e8-ac9a-3a3e3816a461");
     background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
@@ -7,25 +8,37 @@
     /* Resize the background image to cover the entire container */
     /*border-radius: 18px;*/
     display: grid;
-    grid-template-columns: 40% auto;
-    grid-template-rows: 90vh;
-    height: 100vh;
+    grid-template-rows: 15% auto;
+    height: 110vh;
     width: 100vw;
 }
 
 .company-small-grid {
     display: grid;
     grid-template-columns: 25% auto;
-    height: 200px;
+    
+}
+
+.company-up {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.company-down {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 50% auto;
 }
 
 .company-left {
-    padding-left: 165px;
-    padding-right: 80px;
+    display: grid;
+    grid-template-rows: repeat(5, clamp(100px, 6.25vw, 120px));
+    padding-left: 18vw;
 }
 
 .company-right {
-    padding-left: 40px;
+    
 }
 
 .company-small-left {
@@ -34,7 +47,11 @@
     justify-content: center;
 }
 
-.company-small-right {}
+.company-small-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .company-title {
     font-size: 62px;
@@ -47,8 +64,9 @@
 .company-card-sub {
     color: #812F49;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 25px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .company-text {
@@ -58,27 +76,24 @@
 }
 
 .company-img {
-    width: 25vw;
+    width: clamp(410px, 25vw, 480px);
     box-shadow: 3px 8px 8px 0 rgba(0, 0, 0, 0.6);
     transition: 0.3s;
     border-radius: 5px;
 }
 
 .company-card {
-    margin-top: 70px;
     background-color: white;
-    max-width: 770px;
-    min-width: 760px;
+    width: 27vw;
     box-shadow: 3px 8px 8px 0 rgba(0, 0, 0, 0.6);
     transition: 0.3s;
-    width: 40%;
-    height: 200px;
     border-radius: 5px;
+    height: 86px;
 }
 
 .small-icon {
     height: 200px;
-    height: clamp(100px, 50%, 200px);
+    height: clamp(50px, 20%, 200px);
 }
 
 .margin-adjust {
@@ -88,23 +103,31 @@
 @media screen and (max-width: 952px) {
     
     .company-grid {
-        grid-template-columns: 100%;
-        grid-template-rows: 100%;
-        background-size: auto;
-        background-repeat: repeat-y;
+        height: fit-content;
+        justify-content: center;
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/ingenali-9f109.appspot.com/o/company_long.svg?alt=media&token=d690eafe-7cd2-439b-a5b6-aa5ccf6d28e5");
+        background-size: auto 2900px;
+        border-radius: 10px;
     }
     
     .company-img {
         display: none;
     }
 
+    .company-down {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
     .company-left {
-        display: none;
+        display: grid;
+        grid-template-rows: repeat(5, 450px);
+        justify-items: center;
+        padding-left: 0vw;
     }
 
     .company-right {
-        display: grid;
-        grid-template-rows: repeat(3, fit-content);
+        display: none;
     }
 
     .company-small-grid {
@@ -113,36 +136,46 @@
         align-items: center;
         justify-content: center;
         height: 100%;
-        grid-template-rows: 30% auto;
+        grid-template-rows: 50% auto;
+    }
+
+    .company-title {
+        line-height: 50px;
+        width: 60vw;
+        text-align: center;
     }
     .company-card {
-        min-width: 0px;
-        width: 80vw;
-        height: 80vw;
+        min-width: 300px;
+        min-height: 300px;
+        height: 50vw;
+        width: 50vw;
         border-radius: 3rem;
+        padding-left: 0vw;
     }
 
     .company-small-right {
         display: grid;
-        grid-template-rows: 50% auto;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
+        grid-template-rows: auto;
         text-align: center;
     }
 
     .small-icon {
-        height: 5rem;
-        height: clamp(5rem, 5vw, 9rem); /*--- revisar ---*/
+        min-height: 100px;
+        height: 15vw;
     }
 
     .company-card-sub {
-        font-size: clamp(20px, 5vw, 40px);
+        font-size: 1.9rem;
+        text-transform: none;
         line-height: 52px;
     }
     
     .company-text {
         font-size: 25px;
+    }
+
+    .margin-adjust {
+        margin-top: 0px;
     }
 }
 

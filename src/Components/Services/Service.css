@@ -1,5 +1,4 @@
 .service-grid {
-    
     display: grid;
     grid-template-columns: 50% auto;
     height: 100vh;
@@ -7,9 +6,8 @@
 }
 
 .service-title {
-    font-size: 62px;
-    font-weight: bold;
-    line-height: 92px;
+    font-size: 48px;
+    line-height: 70px;
     color: black;
     text-align: center;
 }
@@ -23,7 +21,7 @@
 .grid-center {
     display: grid;
     grid-template-rows: 10% auto;
-    grid-template-columns: auto;
+    
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -34,19 +32,50 @@
     font-size: 18px;
     line-height: 32px;
     text-align: center;
-    width: 50%;
+    width: 60%;
 }
 
 .service-img {
-    width: 35vw;
+    width: 30vw;
+    padding-left: 20vw;
 }
 
 .service-left {
-    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .service-right {
+    display: flex;
     align-items: center;
-    align-content: center;
     justify-content: center;
+}
+
+.service-center {
+    display: grid;
+    grid-template-rows: 15% 45%;
+    justify-items: center;
+    padding-right: 10vw;
+}
+
+.service-h2-title-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-h2-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #26368B;
+    color: white;
+    border-radius: 15px;
+    width: 65vw;
+    height: 150px;
+    margin-bottom: 15vh;
+    font-size: 44px;
 }

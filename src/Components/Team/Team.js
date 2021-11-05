@@ -4,7 +4,7 @@ import "./Team.css"
 
 export const Team = () => {
     return (
-        <div id="service2" className="service-grid">
+        <div id="our-team" className="service-grid">
             <div className="service-left">
                 <img
                     src="Team1.svg"

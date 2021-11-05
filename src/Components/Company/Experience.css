@@ -1,19 +1,25 @@
 .experience-card {
     display: grid;
     /*grid-template-columns: repeat(4, 25%);*/
-    grid-template-rows: 20% auto;
+    grid-template-columns: repeat(3, 33%);
     justify-content: center;
     background-color: white;
-    width: 80vw;
+    width: 70vw;
+    min-width: 805px;
     height: 240px;
     padding: 32px 0px;
     box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1), 0px 20px 24px rgba(20, 37, 63, 0.06);
     border-radius: 15px;
 }
 
+.exp-col {
+    display: grid;
+    grid-template-rows: 20% auto;
+    justify-items: center;
+}
+
 .exp-up {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
     width: 80vw;
     align-content: center;
     justify-items: center;
@@ -21,7 +27,7 @@
 
 .exp-down {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(3, 33%);
     width: 80vw;
     justify-items: center;
     
@@ -51,4 +57,36 @@
 
 .exp-light-red {
     color: #F16063;
+}
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 952px) {
+    .experience-card {
+        margin-top: 200px;
+        background-color: #26368B;
+        grid-template-rows: repeat(3, 350px);
+        grid-template-columns: 100%;
+        min-width: 200px;
+        height: fit-content;
+    }
+
+    .exp-col {
+        text-align: center;
+    }
+
+    .exp-icon {
+        min-width: 100px;
+        width: 10vw;
+    }
+
+    .exp-number-big {
+        color: white;
+    }
+
+    .exp-text {
+        color: white;
+    }
 }

@@ -18,7 +18,7 @@ const Navbar = () => {
                                 }}
                                 className="menu-li"
                             >
-                                Company
+                                Empresa
                             </li>
                         </a>
                         <a href="#clients">
@@ -28,7 +28,7 @@ const Navbar = () => {
                                 }}
                                 className="menu-li"
                             >
-                                Clients
+                                Clientes
                             </li>
                         </a>
                         <a href="#service">
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 }}
                                 className="menu-li"
                             >
-                                Services
+                                Nuestros Servicios
                             </li>
                         </a>
                         <a href="#our-team">
@@ -48,7 +48,17 @@ const Navbar = () => {
                                 }}
                                 className="menu-li"
                             >
-                                Our Team
+                                Nuestro Equipo
+                            </li>
+                        </a>
+                        <a href="#contact">
+                            <li
+                                onClick={() => {
+                                    setToggle(!toggle);
+                                }}
+                                className="menu-li"
+                            >
+                                Contáctanos
                             </li>
                         </a>
                     </ul>
@@ -63,23 +73,27 @@ const Navbar = () => {
                 />
                 <a href="#home">
                     <img
-                        src="Dark.svg"
+                        src="LogoDark.svg"
                         alt="logo"
                         className="navbar-logo"
                     />
                 </a>
                 <a className="a-link" href="#company">
-                    <p className="navbar-options">Company</p>
+                    <p className="navbar-options">Empresa</p>
                 </a>
                 <a className="a-link" href="#clients">
-                    <p className="navbar-options">Clients</p>
+                    <p className="navbar-options">Clientes</p>
                 </a>
                 <a className="a-link" href="#service">
-                    <p className="navbar-options">Servicios</p>
+                    <p className="navbar-options">Nuestros Servicios</p>
                 </a>
                 <a className="a-link" href="#our-team">
-                    <p className="navbar-options">Our Team</p>
+                    <p className="navbar-options">Nuestro Equipo</p>
                 </a>
+                <a className="a-link" href="#contact">
+                    <p className="navbar-options">Contáctanos</p>
+                </a>
+
                 <a
                     href="https://www.facebook.com/puntobanana/"
                     target="_blank"
