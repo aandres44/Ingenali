@@ -19,7 +19,7 @@ export const Team = () => {
                 <div className="service-right">
                     <div className="team-grid-center">
                         
-                        <h2 className="team-member">Yetzirah Vizcarra <br />CEO</h2>
+                        <h2 className="team-member">Yetzirah Vizcarra CEO</h2>
                         <ul className="team-ul">
                             <li className="team-text">
                                 Ingeniera industrial y de sistemas; modalidad Emprendedora, Tec de Monterrey 2006

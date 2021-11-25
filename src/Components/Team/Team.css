@@ -31,7 +31,7 @@
 
     .team-alignment {
         display: grid;
-        grid-template-rows: 25% auto;
+        grid-template-rows: auto;
         justify-content: center;
         justify-items: center;
         margin-bottom: 5rem;
@@ -49,12 +49,14 @@
         height: fit-content;
     }
 
+    .team-grid-center {
+        grid-template-rows: auto;
+    }
+
     .team-ul {
         display: grid;
         justify-items: center;
     }
-
-    .tea
 
     .team-member {
         font-size: 2rem;

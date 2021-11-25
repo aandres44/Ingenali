@@ -98,7 +98,7 @@
         grid-template-rows: 50% auto;
         justify-items: center;
         justify-content: center;
-        margin-bottom: 150px;
+        margin-bottom: 10vw;
         width: 90%;
     }
     .home-right {
