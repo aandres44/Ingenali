@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ingenali/static/css/main.40b49050.chunk.css",
+    "main.js": "/ingenali/static/js/main.be404df8.chunk.js",
+    "main.js.map": "/ingenali/static/js/main.be404df8.chunk.js.map",
+    "runtime-main.js": "/ingenali/static/js/runtime-main.97f66de6.js",
+    "runtime-main.js.map": "/ingenali/static/js/runtime-main.97f66de6.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/ingenali/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.defd4652.chunk.js": "/ingenali/static/js/2.defd4652.chunk.js",
+    "static/js/2.defd4652.chunk.js.map": "/ingenali/static/js/2.defd4652.chunk.js.map",
+    "index.html": "/ingenali/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/ingenali/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.40b49050.chunk.css.map": "/ingenali/static/css/main.40b49050.chunk.css.map",
+    "static/js/2.defd4652.chunk.js.LICENSE.txt": "/ingenali/static/js/2.defd4652.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97f66de6.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.defd4652.chunk.js",
+    "static/css/main.40b49050.chunk.css",
+    "static/js/main.be404df8.chunk.js"
+  ]
+}
